@@ -8,11 +8,11 @@
 
 import UIKit
 
-protocol PickModelProtocol: NSObjectProtocol {
+public protocol PickModelProtocol: NSObjectProtocol {
     var showIdStr: [String] { get }
 }
 
-class PickModel<Element>: NSObject where Element: PickModelProtocol {
+open class PickModel<Element>: NSObject where Element: PickModelProtocol {
     
     private var containData: [PickModelModel] = []
     
