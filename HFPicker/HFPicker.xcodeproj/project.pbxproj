@@ -57,16 +57,24 @@
 		894418CC1FC6593E0015DE9F /* HFPicker */ = {
 			isa = PBXGroup;
 			children = (
+				89C4D15D2003109B008CF16E /* source */,
 				894418CD1FC6593E0015DE9F /* AppDelegate.swift */,
 				894418CF1FC6593E0015DE9F /* ViewController.swift */,
 				894418D11FC6593E0015DE9F /* Main.storyboard */,
 				894418D41FC6593E0015DE9F /* Assets.xcassets */,
 				894418D61FC6593E0015DE9F /* LaunchScreen.storyboard */,
-				894418E01FC65AA80015DE9F /* PickModel.swift */,
 				894418DF1FC65A880015DE9F /* MyPlayground.playground */,
 				894418D91FC6593E0015DE9F /* Info.plist */,
 			);
 			path = HFPicker;
+			sourceTree = "<group>";
+		};
+		89C4D15D2003109B008CF16E /* source */ = {
+			isa = PBXGroup;
+			children = (
+				894418E01FC65AA80015DE9F /* PickModel.swift */,
+			);
+			path = source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
