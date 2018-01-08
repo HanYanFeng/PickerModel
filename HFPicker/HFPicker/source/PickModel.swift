@@ -48,7 +48,7 @@ open class PickModel<Element>: NSObject where Element: PickModelProtocol {
         return backArr
     }
     
-    init(data: [Element]) {
+    public init(data: [Element]) {
         super.init()
         assert(!data.isEmpty,"[Element] cannot empyt")
         var currentModel : PickModelModel?
@@ -135,7 +135,7 @@ open class PickModel<Element>: NSObject where Element: PickModelProtocol {
         
     }
     
-    func 滑动第X(列: Int, 到第X行 行: Int) -> Bool {
+    public func 滑动第X(列: Int, 到第X行 行: Int) -> Bool {
         
         if self.currentIndex.count - 1 < 列{
             print("没有那么多列")
