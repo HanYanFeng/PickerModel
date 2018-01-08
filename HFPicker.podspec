@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "HFPicker"
-  s.version      = "0.0.1"
+  s.version      = "1.0.0"
   s.summary      = "HFPicker is the picker on the transformation of the data encapsulation"
 
   # This description is used to generate tags and improve search results.
@@ -24,7 +24,12 @@ Pod::Spec.new do |s|
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  # s.description  = <<-DESC
+   s.description  = <<-DESC
+                     Computes the meaning of life.
+                     Features:
+                     1. Is self aware
+                     ...
+                     42. Likes candies.
                    DESC
 
   s.homepage     = "https://github.com/HanYanFeng/PickerModel"
@@ -52,10 +57,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "HanYanFeng" => "934672137@qq.com" }
+  # s.author             = { "HanYanFeng" => "934672137@qq.com" }
   # Or just: s.author    = "HanYanFeng"
-  # s.authors            = { "HanYanFeng" => "934672137@qq.com" }
-  # s.social_media_url   = "http://twitter.com/HanYanFeng"
+  s.authors            = { "HanYanFeng" => "934672137@qq.com" }
+  s.social_media_url   = "https://github.com/HanYanFeng"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -64,10 +69,10 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  s.platform     = :ios, "9.0"
+  # s.platform     = :ios, "9.0"
 
   #  When using multiple platforms
-  # s.ios.deployment_target = "5.0"
+   s.ios.deployment_target = "9.0"
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -79,7 +84,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/HanYanFeng/PickerModel.git", :tag => "#{s.version}" }
+  s.source       = { :git => "https://github.com/HanYanFeng/PickerModel.git", :tag => '1.0.0' }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,7 +96,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "HFPicker/HFPicker/source/*.swift"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
